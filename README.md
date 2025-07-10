@@ -1,2 +1,2 @@
-Data-driven modification of clinical T category for lung cancer.  
-The code and model will be available after the paper is published.
+AI-driven discovery of a simple and generalizable computer tomography imaging biomarker for improved clinical T staging in early-stage lung adenocarcinoma
+
