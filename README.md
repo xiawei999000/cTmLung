@@ -1,4 +1,10 @@
 # AI-driven discovery of a simple and generalizable computer tomography imaging biomarker for improved clinical T staging in early-stage lung adenocarcinoma
+
+
+# The lung nodule automatic segmentation model
+The weights of the lung nodule automatic segmentation model based on nnUNet: https://drive.google.com/file/d/1IOJeFn_BJ0T0wrP_Hzk83ULK4om02Rdq/view?usp=drive_link
+
+
 # code structure
 > [quantitative features calculation.py/](https://github.com/xiawei999000/cTmLung/blob/main/quantitative%20features%20calculation.py): functions of quantitative features calculation based on different thresholds (tggo and ts).
 >
@@ -20,3 +26,8 @@
 > 
 > 
 > [cTm_application.py/](https://github.com/xiawei999000/cTmLung/blob/main/cTm_application.py): The code for building an executable program for cTm demonstration.
+
+
+# An executable program for the demonstration of cTm
+https://drive.google.com/file/d/1kk_xthcNyzYQxYaIsXqL7kpzQcen-ORs/view?usp=drive_link
+
