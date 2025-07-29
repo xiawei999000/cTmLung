@@ -9,12 +9,10 @@ for (t_ggn in t_ggn_list) {
   for (t_soild in t_soild_list) {
     feas_file_name <- paste( t_ggn, t_soild, sep = "")
     feas_file_dir <- paste('D:/train_features/', feas_file_name, '.xlsx', sep = "")
-    info_feas_SYSUCC_train <- read.xlsx(feas_file_dir, 1, header=TRUE) 
-    
-    # exclude the patient withsolid part diameter of node > 40 mm
-    info_feas_SYSUCC_train <- info_feas_SYSUCC_train[-which(info_feas_SYSUCC_train$Imaging_ID %in% exclude_id_SYSUCC),] 
-    x_train <- info_feas_SYSUCC_train[, 13:31]
-    y_train <- info_feas_SYSUCC_train$pathology
+    info_feas_train <- read.xlsx(feas_file_dir, 1, header=TRUE)    
+
+    x_train <- info_feas_train[, 13:31]
+    y_train <- info_feas_train$pathology
   
     # LASSO modelling
     set.seed(fix_seed)
