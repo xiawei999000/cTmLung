@@ -1,11 +1,11 @@
 # AI-driven discovery of a simple and generalizable computer tomography imaging biomarker for improved clinical T staging in early-stage lung adenocarcinoma
 
 
-# The lung nodule automatic segmentation model
-[The weights of the lung nodule automatic segmentation model based on nnUNet](https://zenodo.org/records/16608410)
+# The lung nodule automatic segmentation model:
+The weights of the lung nodule automatic segmentation model based on nnUNet: https://zenodo.org/records/16608410
 
 
-# code structure
+# code structure:
 > [quantitative features calculation.py/](https://github.com/xiawei999000/cTmLung/blob/main/quantitative%20features%20calculation.py): functions of quantitative features calculation based on different thresholds (tggo and ts).
 >
 > 
@@ -28,6 +28,7 @@
 > [cTm_application.py/](https://github.com/xiawei999000/cTmLung/blob/main/cTm_application.py): The code for building an executable program for cTm demonstration.
 
 
-# [An executable program for the demonstration of cTm](https://zenodo.org/records/16608410)
+# An executable program for the demonstration of cTm: 
+https://zenodo.org/records/16608410
 
 
