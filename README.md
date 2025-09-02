@@ -2,7 +2,7 @@
 
 
 # The lung nodule automatic segmentation model
-The weights of the lung nodule automatic segmentation model based on nnUNet: https://drive.google.com/file/d/1IOJeFn_BJ0T0wrP_Hzk83ULK4om02Rdq/view?usp=drive_link
+[The weights of the lung nodule automatic segmentation model based on nnUNet](https://zenodo.org/records/16608410)
 
 
 # code structure
@@ -22,12 +22,12 @@ The weights of the lung nodule automatic segmentation model based on nnUNet: htt
 > >
 > >[3_Optimal_feature_determination.R](https://github.com/xiawei999000/cTmLung/blob/main/3_Optimal_feature_determination.R): Determination of optimal quantitative feature based on the highest mean C-index of pathology, DFS, and OS prediction.
 > >
-> >[4_cTm.R/](https://github.com/xiawei999000/cTmLung/blob/main/4_cTm.R): The modification of current clinical T stage according to the value of optimal quantitative feature.
+> >[4_cTm.R/](https://github.com/xiawei999000/cTmLung/blob/main/4_cTm.R): The modification of current clinical T stage according to the value of SM%.
 > 
 > 
 > [cTm_application.py/](https://github.com/xiawei999000/cTmLung/blob/main/cTm_application.py): The code for building an executable program for cTm demonstration.
 
 
-# An executable program for the demonstration of cTm
-https://drive.google.com/file/d/1kk_xthcNyzYQxYaIsXqL7kpzQcen-ORs/view?usp=drive_link
+# [An executable program for the demonstration of cTm](https://zenodo.org/records/16608410)
+
 
